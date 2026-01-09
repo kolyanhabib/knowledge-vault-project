@@ -129,3 +129,74 @@ p {
   background-color: rgb(24, 125, 24);
   color: #fff;
 }
+
+#note-section {
+  padding-top: 60px;
+}
+
+.notes-container {
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-heading h2 {
+  font-size: 48px;
+  margin-bottom: 16px;
+  color: #001931;
+}
+
+.section-heading p {
+  font-size: 16px;
+  color: #627382;
+  margin-bottom: 44px;
+}
+
+.note-section {
+  width: 100%;
+  padding: 80px 40px;
+  background-color: #fff;
+}
+
+.note-box {
+  display: flex;
+  gap: 24px;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.note-card {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+  padding: 24px;
+  gap: 16px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 322px;
+}
+
+.note-icons {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  margin: 0 auto 20px;
+  background: rgba(249, 85, 85, 1);
+  width: 60px;
+  height: 60px;
+  color: white;
+}
+
+.note-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #001931;
+}
+
+.note-card p {
+  font-size: 16px;
+  color: #627382;
+  line-height: 20px;
+}
