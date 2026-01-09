@@ -200,3 +200,72 @@ p {
   color: #627382;
   line-height: 20px;
 }
+
+p {
+  color: #627382;
+  font-size: 16px;
+}
+#second-brain {
+  margin-top: auto;
+}
+
+.brain-section {
+  padding: 80px 0;
+  background: #ffffff;
+}
+
+.brain-container {
+  max-width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.brain-image img {
+  width: 600px;
+  height: 600px;
+  object-fit: contain;
+}
+
+.brain-label {
+  color: #30b868;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.brain-content h2 {
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 16px;
+  color: #001931;
+}
+
+.brain-description {
+  font-size: 16px;
+  color: #627382;
+  margin-bottom: 40px;
+  max-width: 700px;
+}
+
+.brain-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.brain-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #0a1f44;
+  margin-bottom: 16px;
+}
+
+.brain-list img {
+  width: 20px;
+  height: 20px;
+}
